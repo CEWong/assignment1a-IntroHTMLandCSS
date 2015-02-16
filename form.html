@@ -1,0 +1,51 @@
+<html>
+<title> Form </title>
+<h1> <b><Font Size=+3> Form </font></b> </h1>
+<body>
+Contains an example of a form element containing the following controls: text box, text area, check boxes, radio buttons, submit button, drop-down selection list.
+<p>
+
+<h2> <b><Font Size=+1> Text Boxes and Text Areas </font></b> </h2>
+<form action="action_page.php">
+Favorite Comic: <br>
+<input type="text" name="comic">
+<br>
+Favorite Comic Character: <br>
+<input type="text" name="character">
+
+<h3> <b><Font Size=+1> Radio Buttons </font></b> </h3>
+Do you like comics turned into movies? 
+<br>
+<input type="radio" name="answer" value="Yes" checked>Yes
+<br>
+<input type="radio" name="answer" value="No">No
+
+<h4> <b><Font Size=+1> Check Boxes </font></b> </h4>
+<input type="checkbox" name="type" value="books">I read comic books
+<br>
+<input type="checkbox" name="type" value="movies">I watch the movies
+<br>
+<input type="checkbox" name="type" value="neither">I don't like the comics or movies
+
+<h5> <b><Font Size=+1> Drop-down Selection List </font></b> </h5>
+Favorite comic turned into a movie:
+<p>
+<input list="comics">
+<datalist id="comics">
+  <option value="X-Men">
+  <option value="Spiderman">
+  <option value="The Incredible Hulk">
+  <option value="Watchmen">
+  <option value="Superman">
+  <option value="Batman">
+</datalist>
+
+<br><br>
+<input type="submit" value="Submit">
+</form>
+
+<p>
+<p> Go Back to <a href="index.html"> Index </a>
+
+</body>
+</html>
